@@ -1,0 +1,30 @@
+{
+  "name": "vinxi-photos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vinxi dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@8.15.4+sha1.c85a4305534f76d461407b59277b954bac97b5c4",
+  "dependencies": {
+    "@stylefusion/react": "^0.0.26",
+    "@raikou/core": "^0.0.7",
+    "@raikou/emotion": "^0.0.7",
+    "@raikou/hooks": "^0.0.7",
+    "@raikou/system": "^0.0.7",    
+    "@vinxi/react": "^0.2.3",
+    "@vitejs/plugin-react": "^4.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vinxi": "^0.4.0"
+  },
+  "devDependencies": {
+    "@stylefusion/vite-plugin": "^0.0.26",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0"
+  }
+}
