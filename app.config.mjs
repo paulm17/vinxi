@@ -34,9 +34,8 @@ export default createApp({
               'prop-types': 'prop-types/prop-types.js',
               'react-is': 'react-is/cjs/react-is.development.js',
               'flush-sync': 'flush-sync/dist/flush-sync.js',
-              // 'hoist-non-react-statics': 'hoist-non-react-statics/dist/hoist-non-react-statics.js'
             }  
-          }
+          }          
         }),
       ],
     },

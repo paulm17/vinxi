@@ -1,6 +1,5 @@
 /// <reference types="vinxi/types/client" />
 import ReactDOM from "react-dom/client";
-import { emotionTransform, RaikouEmotionProvider } from '@raikou/emotion';
 import { RaikouProvider } from '@raikou/system';
 
 import '@raikou/system/styles.css';
@@ -16,10 +15,8 @@ function App() {
 
 function Root() {
   return (
-    <RaikouProvider stylesTransform={emotionTransform}>
-      <RaikouEmotionProvider>
-        <App />
-      </RaikouEmotionProvider>
+    <RaikouProvider>
+      <App />
     </RaikouProvider>
   )
 }
